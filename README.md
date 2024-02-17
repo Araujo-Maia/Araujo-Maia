@@ -1,2 +1,0 @@
-# Araujo-Maia
-# Araujo-Maia

@@ -3,6 +3,12 @@
   font-family: sans-serif;
   box-sizing: border-box;
 }
+:root{
+  --primary: #c94666;
+  --secondary: #78293d;
+  --hover: #5E2130;
+  --darck: #17080c;
+}
 
 html, body, aside, main, section {
   height: 100%;
@@ -35,7 +41,7 @@ section {
 /* ASIDE WRAP */
 .aside-wrap {
   width: 240px;
-  background-image: linear-gradient(to bottom right, #c94666, black);
+  background-image: linear-gradient(to bottom right, var(--primary), black);
   padding: 100px 20px;
   position: fixed;
 }
@@ -78,7 +84,7 @@ section {
 }
 .social-links li{
   display: inline-block;
-  background-color: #78293d;
+  background-color: var(--primary);
   margin-right: 10px;
 }
 .social-links li a{
@@ -88,5 +94,5 @@ section {
   font-weight: bold;
   font-size: 26px;
   text-decoration: none;
-
+  background-color: var(--secondary);
 }
